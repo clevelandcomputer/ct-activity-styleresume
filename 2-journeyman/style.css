@@ -74,6 +74,13 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
+	
+}
+
+#contactDetails ul li a {
+	text-decoration: none;
+	color: black;
+	
 }
 
 #contactDetails ul li a, a[href^=tel] {
@@ -131,3 +138,17 @@ section:last-child {
 .keySkills ul li {
 	margin-bottom: 3px;
 }
+
+#mainArea {
+	border-top: 2px solid gold;
+}
+
+.sectionTitle h1 {
+	color: gold;
+	
+}
+
+section {
+	border-top: 1px solid lightgray;	
+}
+
