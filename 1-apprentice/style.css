@@ -1,0 +1,121 @@
+#cv {
+    border: 4px orange solid;
+    margin: 4%;
+   
+}
+#top::before {
+    
+    font-size: 45px;
+    color: orange;
+    text-decoration: underline;
+    content: "My Resume";
+}
+
+#top {
+    text-align: center;
+    
+  
+}
+
+#headshot{
+    padding-top: 25px;
+}
+
+#headshot img{
+    border: 4px black solid;
+    border-radius: 50%;
+   
+    
+   
+}
+
+#contactDetails ul li {
+    display: inline;
+}
+#contactDetails ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#contactDetails ul li {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px orange;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(253, 97, 7, 0.849), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: orange;
+    color: #FFF;
+    padding: 8px 12px;
+    text-decoration: none;
+    
+}
+#contactDetails ul {
+ font-size: 30px;
+    
+}
+
+div.clear {
+    clear: both;
+}
+
+#mainArea section article .sectionTitle h1, #mainArea section:nth-child(2) .sectionTitle h1 {
+    font-size: 55px;
+    color: red;
+    content: ":";
+}
+#mainArea section article .sectionTitle h1::after, #mainArea section:nth-child(2) .sectionTitle h1::after {
+   
+    content: ":";
+}
+
+#mainArea section article .sectionContent {
+    width: 60%;
+    margin: auto;
+    color: white;
+    background-color: black;
+    min-height: 200px;
+    font-size: 44px;
+}
+
+#mainArea section:nth-child(2) .sectionContent {
+    box-sizing: border-box;
+    content: "";
+    padding: auto;
+    display: table;
+    clear: both;
+}
+
+#mainArea section:nth-child(2) .sectionContent article {
+    float: left;
+    
+    margin-left: 25px;
+    width: 30%;
+    padding: 10px;
+    border: 3px dotted black;
+}
+
+article h2 {
+    font-size: 34px;
+    color: green;
+    text-decoration: underline;
+}
+
+.subDetails {
+    font-weight: bold;
+    font-size: 24px;
+    color: blue;
+}
+
+.sectionContent p:nth-child(3) {
+    font-weight: bolder;
+    font-size: 18px;
+    color: purple;
+}
+
+
+
