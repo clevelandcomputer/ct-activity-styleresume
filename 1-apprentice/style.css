@@ -7,6 +7,7 @@
     
     font-size: 45px;
     color: orange;
+    font-family: cursive;
     text-decoration: underline;
     content: "My Resume";
 }
@@ -63,12 +64,13 @@ div.clear {
     clear: both;
 }
 
-#mainArea section article .sectionTitle h1, #mainArea section:nth-child(2) .sectionTitle h1 {
+#mainArea section article .sectionTitle h1, #mainArea section:nth-child(2) .sectionTitle h1, #mainArea section:nth-child(3) .sectionTitle h1, #mainArea section:nth-child(4) .sectionTitle h1 {
     font-size: 55px;
+    font-family: Times;
     color: red;
     content: ":";
 }
-#mainArea section article .sectionTitle h1::after, #mainArea section:nth-child(2) .sectionTitle h1::after {
+#mainArea section article .sectionTitle h1::after, #mainArea section:nth-child(2) .sectionTitle h1::after, #mainArea section:nth-child(3) .sectionTitle h1::after, #mainArea section:nth-child(4) .sectionTitle h1::after {
    
     content: ":";
 }
@@ -103,12 +105,14 @@ article h2 {
     font-size: 34px;
     color: green;
     text-decoration: underline;
+    font-family: arial;
 }
 
 .subDetails {
     font-weight: bold;
     font-size: 24px;
     color: blue;
+    font-family: Helvetica;
 }
 
 .sectionContent p:nth-child(3) {
@@ -116,6 +120,25 @@ article h2 {
     font-size: 18px;
     color: purple;
 }
+.keySkills {
+    list-style-type: circle;
+    
+    list-style-position: inside;
+}
+.keySkills li {
+    margin: 0 40px;
+    display: inline;
+    border: 2px solid orange;
 
+}
 
+#mainArea section:nth-child(4) .sectionContent {
+    
+    display: inline-block;
+    padding-bottom: 20px;
+}
+#mainArea section:nth-child(4) .sectionContent article {
+    
+    border: 2px dotted black;
 
+}
