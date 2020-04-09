@@ -1,0 +1,64 @@
+#top {
+	width: 75%;
+	margin: 80px auto;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+	margin-left: 90px;
+}
+
+#headshot img {
+	border-radius: 50%;
+
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+}
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+	margin-left: 90px;
+	
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+	margin-left: 90px;
+	
+}
+
+#mainArea {
+	border-top: 2px solid gold;
+	margin-top: 20px;
+}
+
+#contactDetails ul li a {
+	color: black;
+	text-decoration: none;
+	
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	
+}
+
+h1 {
+	font-size: 35px;
+}
