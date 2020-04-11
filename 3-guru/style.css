@@ -49,10 +49,9 @@
 	font-size: 28px;
 	text-align: left;
 	padding: 0 10px 0 10px;
-	
-	
-	
+		
 }
+
 
 #mainArea {
 	border-top: 2px solid #cf8a05;
@@ -122,4 +121,20 @@ h1 {
 	font-family: Rokkitt;
 	font-size: 30px;
 	margin-top: 10px;
+}
+
+.subDetails {
+	margin: 5px 0;
+}
+
+h2 {
+	margin: 25px 0 0 0;
+}
+
+p:not([class]) { 
+	margin-top: 0;
+  }
+
+  #mainArea section article .sectionContent p {
+	margin-top: 22px;
 }
